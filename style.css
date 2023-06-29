@@ -1,0 +1,169 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas p�ginas 
+
+*/
+
+* {
+  box-sizing: content-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+div {
+    width: 55%;
+    height: 55%;
+    text-align: right;
+}
+
+.container-img { 
+	max-width: 100px;
+	text-align: center; 
+
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+}
+
+body {margin:0;}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h1, h2, p {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	text-align: center;
+	width: 140%;
+
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+#primeiro-link > a {
+	color: #933;
+}
+
+ul {
+	font-size: 20px;
+}
+
+ul li {
+	font-size: 0.8em; /* equivalente a 16px */
+	font-size: 1.6rem; /* equivalente a 16px */
+	width: 80%;
+	height: 3rem; /* equivalente a 30px */
+}
+
+p {
+	font-size: 1.6rem; /* equivalente a 16px */
+}
+
+
+
+h2 {
+	font-size: 2rem; /* equivalente a 20px */
+	height: 3rem;
+}
+
+
+.imgalign{
+
+	width: 300px;
+  
+	display: inline-block;
+	padding: 30px;
+
+  
+  }
+
+  .imgalign a:hover{
+
+    background:rgba(214,214,214)
+
+}
+
+form {
+	background: white;
+	padding: 10px;
+}
+
+form div {
+	background: white;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66F;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+header {
+  background-color: rgb(48, 148, 143);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+
+article {
+  float: center;
+  padding: 20px;
+  width: 70%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  width: 70%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 600px) {
+	article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.cognito {
+	height: 350px !important;
+	overflow: hidden !important;
+}
+
